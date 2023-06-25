@@ -591,6 +591,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -747,9 +751,9 @@ video {
 @font-face {
   font-family: Vazirmatn;
 
-  src: url('./fonts/Vazirmatn-Regular.ttf');
+  src: url('./fonts/Vazirmatn-Regular.ttf')format(ttf);
 
-  src: url('./fonts/Vazirmatn-Regular.woff2');
+  src: url('./fonts/Vazirmatn-Regular.woff2')format(woff2);
 
   font-weight: normal;
 
@@ -759,9 +763,9 @@ video {
 @font-face {
   font-family: Vazirmatn;
 
-  src: url('./fonts/Vazirmatn-Bold.ttf');
+  src: url('./fonts/Vazirmatn-Bold.ttf')format(ttf);
 
-  src: url('./fonts/Vazirmatn-Bold.ttf');
+  src: url('./fonts/Vazirmatn-Bold.woff2')format(woff2);
 
   font-weight: bold;
 
@@ -771,9 +775,9 @@ video {
 @font-face {
   font-family: Vazirmatn;
 
-  src: url('./fonts/Vazirmatn-Black.ttf');
+  src: url('./fonts/Vazirmatn-Black.ttf')format(ttf);
 
-  src: url('./fonts/Vazirmatn-Black.ttf');
+  src: url('./fonts/Vazirmatn-Black.woff2')format(woff2);
 
   font-weight: 900;
 
@@ -783,9 +787,9 @@ video {
 @font-face {
   font-family: Vazirmatn;
 
-  src: url('./fonts/Vazirmatn-Medium.ttf');
+  src: url('./fonts/Vazirmatn-Medium.ttf')format(ttf);
 
-  src: url('./fonts/Vazirmatn-Medium.woff2');
+  src: url('./fonts/Vazirmatn-Medium.woff2')format(woff2);
 
   font-weight: 500;
 
@@ -795,9 +799,9 @@ video {
 @font-face {
   font-family: Vazirmatn;
 
-  src: url('./fonts/Vazirmatn-Light.ttf');
+  src: url('./fonts/Vazirmatn-Light.ttf')format(ttf);
 
-  src: url('./fonts/Vazirmatn-Light.woff2');
+  src: url('./fonts/Vazirmatn-Light.woff2')format(woff2);
 
   font-weight: 300;
 
@@ -807,9 +811,9 @@ video {
 @font-face {
   font-family: Vazirmatn;
 
-  src: url('./fonts/Vazirmatn-Thin.ttf');
+  src: url('./fonts/Vazirmatn-Thin.ttf')format(ttf);
 
-  src: url('./fonts/Vazirmatn-Thin.woff2');
+  src: url('./fonts/Vazirmatn-Thin.woff2')format(woff2);
 
   font-weight: 100;
 
