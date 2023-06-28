@@ -550,6 +550,14 @@ video {
   margin: 1rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -655,6 +663,23 @@ video {
   width: 33.333333%;
 }
 
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-4\/6 {
+  width: 66.666667%;
+}
+
+.w-3\/6 {
+  width: 50%;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -676,6 +701,10 @@ video {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -746,6 +775,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
 .rounded-2xl {
@@ -1181,6 +1216,18 @@ video {
   line-height: 1.25rem;
 }
 
+.focus-within\:fixed:focus-within {
+  position: fixed;
+}
+
+.focus-within\:mt-2:focus-within {
+  margin-top: 0.5rem;
+}
+
+.focus-within\:mt-5:focus-within {
+  margin-top: 1.25rem;
+}
+
 .focus-within\:w-2:focus-within {
   width: 0.5rem;
 }
@@ -1223,6 +1270,24 @@ video {
 
 .focus-within\:w-\[105\%\]:focus-within {
   width: 105%;
+}
+
+.focus-within\:space-y-5:focus-within > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
+.focus-within\:space-y-6:focus-within > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.focus-within\:space-y-4:focus-within > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .focus-within\:p-2:focus-within {
