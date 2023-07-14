@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="../../dist/output.css" rel="stylesheet">
     <title>داشبورد</title>
 </head>
 <body class="flex md:h-auto m-4">
@@ -21,7 +21,7 @@
                 کاربران
             </button>
       
-            <button class="hover:text-red-500  rounded-lg cursor-pointer p-4">
+            <button onclick="exit()" class="hover:text-red-500  rounded-lg cursor-pointer p-4">
                 خروج
             </button>
         </div>
@@ -207,6 +207,10 @@ function home(){
     document.getElementById("home").style.display="flex";
     document.getElementById("signup").style.display="none";
     document.getElementById("users_list").style.display="none"; 
+}
+
+function exit(){
+    location.replace("./index.php")
 }
 
 </script>

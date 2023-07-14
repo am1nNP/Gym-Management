@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="../../dist/output.css" rel="stylesheet">
     <title>صفحه ورود</title>
     <script>
         function myFunction() {
@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="md:block hidden  w-1/2 ">
-                    <img class="rounded-2xl" src="/img/gym.jpg" alt="">
+                    <img class="rounded-2xl" src="../../img/gym.jpg" alt="">
                 </div>
         </div>
     </section>
