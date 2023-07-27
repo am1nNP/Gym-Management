@@ -1,6 +1,5 @@
 <?php
 include "./db.php";
-include "./jdf.php";
 include "./action/info.php";
 ?>
 <!DOCTYPE html>
@@ -75,17 +74,9 @@ include "./action/info.php";
         <section class="antialiased bg-gray-100 text-gray-600 px-4">
         <div class="flex flex-col h-full">
         <!-- Table -->
-        <div class="w-full mx-auto bg-white drop-shadow-lg rounded-sm border border-gray-200">
+        <div class="w-full  bg-white drop-shadow-lg rounded-sm border border-gray-200">
             <header class="px-5 w-full flex justify-between py-4 border-b border-gray-100">
-                <h2 class="font-semibold text-gray-800">کاربران</h2>
-                <select class="bg-transparent border-b-2 py-2">                   
-                    <option selected>مرتب سازی براساس...</option>
-                    <option value="1">براساس نام</option>
-                    <option value="2">براساس شماره تلفن</option>
-                    <option value="3">براساس کد ملی</option>
-                    <option value="4">براساس تاریخ ثبت</option>
-                    <option value="5">براساس تاریخ انقضا</option>
-                  </select>
+                <h2 class="font-semibold text-gray-800 p-4">کاربران</h2>
             </header>
             <div class="p-3">
                 <div class="overflow-x-auto">
