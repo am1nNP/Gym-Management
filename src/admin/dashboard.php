@@ -1,5 +1,6 @@
 <?php
 include "./db.php";
+include "./jdf.php";
 include "./action/info.php";
 ?>
 <!DOCTYPE html>
