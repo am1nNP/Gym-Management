@@ -60,9 +60,16 @@ $subscribe=$row['subscribe'];
 </script>
 <?php
 if(isset($_POST['submit'])){
-    mysqli_query($mysqli,"UPDATE user SET picture='$_POST[picture]',fullname='$_POST[fullname]',phone='$_POST[phone]',meli_code='$_POST[meli_code]',birth_date='$_POST[birth_date]'
-    ,join_date='$_POST[join_date]',expire_date='$_POST[expire_date]',subscribe='$_POST[subscribe]' WHERE id=$id")or die(mysqli_error($mysqli));
-    header('location:../dashboard.php');
+    if($_POST['picture']!==""){
+        mysqli_query($mysqli,"UPDATE user SET picture='$_POST[picture]',fullname='$_POST[fullname]',phone='$_POST[phone]',meli_code='$_POST[meli_code]',birth_date='$_POST[birth_date]'
+        ,join_date='$_POST[join_date]',expire_date='$_POST[expire_date]',subscribe='$_POST[subscribe]' WHERE id=$id")or die(mysqli_error($mysqli));
+        header('location:../dashboard.php');
+    }
+        else{
+            mysqli_query($mysqli,"UPDATE user SET picture='$picture',fullname='$_POST[fullname]',phone='$_POST[phone]',meli_code='$_POST[meli_code]',birth_date='$_POST[birth_date]'
+            ,join_date='$_POST[join_date]',expire_date='$_POST[expire_date]',subscribe='$_POST[subscribe]' WHERE id=$id")or die(mysqli_error($mysqli));
+            header('location:../dashboard.php');
+        }
 }
 
 ?>

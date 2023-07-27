@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start();   
 $sql = "SELECT * FROM user";
 $result = $mysqli->query($sql);
 $count=0;
