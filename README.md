@@ -1,5 +1,5 @@
 # Gym-Management
-hi there this is a gym management system 
+hi veiwers this is a gym management system 
 used to creat , read , update and delete gym users 
 filter users by the date they will be signed up
 ----------------------------------------------
