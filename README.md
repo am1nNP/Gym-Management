@@ -1,6 +1,6 @@
 # Gym-Management
 hi veiwers this is a gym management system 
-used to creat , read , update and delete gym users 
+used to create , read , update and delete gym users 
 filter users by the date they will be signed up
 ----------------------------------------------
 front end- tailwind css and probably react.js
